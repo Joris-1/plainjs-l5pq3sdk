@@ -43,14 +43,14 @@ class MyCounter extends HTMLElement {
             const human = new Human(config); // create instance of Human
             const inputVideo = document.getElementById("inputVideo");
             const outputCanvas = document.getElementById('overlay');
-/*
+
             async function detectVideo() {
                 const result = await human.detect(inputVideo); // run detection
                 human.draw.all(outputCanvas, result); // draw all results
                 requestAnimationFrame(detectVideo); // run loop
             }
-*/
-            //detectVideo()
+
+            detectVideo()
         }
 
 
