@@ -61,4 +61,4 @@ class MyCounter extends HTMLElement {
   
 }
 
-customElements.define("my-counter", MyCounter);
+customElements.define('cam-tag', cam);
